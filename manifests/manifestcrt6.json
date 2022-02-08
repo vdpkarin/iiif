@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://vdpkarin.github.io/minne1982/manifests/manifestcrt6a.json",
+    "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/manifest.json",
     "type": "Manifest",
     "label": {
         "nl": [
@@ -109,7 +109,7 @@
             "width": 5412,
             "items": [
                 {
-                    "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/page/1/1",
+                    "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/canvas/1/1",
                     "type": "AnnotationPage",
                     "items": [
                         {
@@ -124,7 +124,7 @@
                                 "width": 5412,
                                 "service": {
                                     "id": "https://iiif.kmska.be/c/iiif/2/public@2076.tif",
-                                    "profile": "level2",
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
                                     "type": "ImageService2"
                                 }
                             },
@@ -137,12 +137,11 @@
     ],
     "annotations": [
         {
-            "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/page/p1",
+            "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/annotations/p1",
             "type": "AnnotationPage",
             "items": [
                 {
                     "type": "Annotation",
-             	   "motivation": "tagging",
                     "body": [
                         {
                             "type": "TextualBody",

@@ -1,13 +1,13 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://vdpkarin.github.io/minne1982/manifests/manifestcrt6a.json",
+    "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/7/manifest.json",
     "type": "Manifest",
     "label": {
         "nl": [
-            "De beeldhouwer Augustin Dumont"
+            "Beeldenstormer"
         ],
         "en": [
-            "The Sculptor Augustin Dumont"
+            "Iconoclast"
         ]
     },
     "metadata": [
@@ -40,10 +40,10 @@
             },
             "value": {
                 "nl": [
-                    "1519"
+                    "2138(I)/162"
                 ],
                 "en": [
-                    "1519"
+                    "2138(I)/162"
                 ]
             }
         },
@@ -58,20 +58,20 @@
             },
             "value": {
                 "nl": [
-                    "De beeldhouwer Augustin Dumont"
+                    "Beeldenstormer"
                 ],
                 "en": [
-                    "The Sculptor Augustin Dumont"
+                    "Iconoclast"
                 ]
             }
         }
     ],
     "summary": {
         "nl": [
-            "De beeldhouwer Augustin Dumont"
+            "Beeldenstormer"
         ],
         "en": [
-            "The Sculptor Augustin Dumont"
+            "Iconoclast"
         ]
     },
     "requiredStatement": {
@@ -95,40 +95,40 @@
     "viewingDirection": "left-to-right",
     "items": [
         {
-            "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/canvas/1",
+            "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/7/canvas/1",
             "type": "Canvas",
             "label": {
                 "nl": [
-                    "De beeldhouwer Augustin Dumont"
+                    "Beeldenstormer"
                 ],
                 "en": [
-                    "The Sculptor Augustin Dumont"
+                    "Iconoclast"
                 ]
             },
-            "height": 7216,
-            "width": 5412,
+            "height": 6184,
+            "width": 4999,
             "items": [
                 {
-                    "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/page/1/1",
+                    "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/7/canvas/1/1",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/annotation/1-image",
+                            "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/7/annotation/1-image",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://iiif.kmska.be/c/iiif/2/public@2076.tif/full/max/0/default.jpg",
+                                "id": "https://iiif.kmska.be/c/iiif/2/public@3091.tif/full/max/0/default.jpg",
                                 "type": "Image",
                                 "format": "image/jpeg",
-                                "height": 7216,
-                                "width": 5412,
+                                "height": 6184,
+                                "width": 4999,
                                 "service": {
-                                    "id": "https://iiif.kmska.be/c/iiif/2/public@2076.tif",
-                                    "profile": "level2",
+                                    "id": "https://iiif.kmska.be/c/iiif/2/public@3091.tif",
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
                                     "type": "ImageService2"
                                 }
                             },
-                            "target": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/canvas/1"
+                            "target": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/7/canvas/1"
                         }
                     ]
                 }
@@ -137,36 +137,38 @@
     ],
     "annotations": [
         {
-            "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/page/p1",
+            "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/7/annotations/p1",
             "type": "AnnotationPage",
             "items": [
                 {
                     "type": "Annotation",
-             	   "motivation": "tagging",
                     "body": [
                         {
                             "type": "TextualBody",
-                            "value": "neus brokkelt af",
+                            "value": "Roestbruine verkleuring"
+                        },
+                        {
+                            "type": "TextualBody",
+                            "value": "lichte vlek",
                             "purpose": "commenting",
                             "creator": {
                                 "id": "http://www.example.com/hero-solutions",
                                 "name": "Hero Solutions"
                             },
-                            "created": "2021-11-30T16:49:02.329Z",
-                            "modified": "2021-11-30T16:49:04.089Z"
+                            "created": "2021-12-02T08:48:14.836Z",
+                            "modified": "2021-12-02T08:48:28.520Z"
                         }
                     ],
                     "target": {
-                        "source": "https://iiif.kmska.be/c/iiif/2/public@2076.tif/full/max/0/default.jpg",
-                        "styleClass": "condition-red",
+                        "source": "https://iiif.kmska.be/c/iiif/2/public@3091.tif/full/max/0/default.jpg",
+                        "styleClass": "condition-blue",
                         "selector": {
-                            "type": "FragmentSelector",
-                            "conformsTo": "http://www.w3.org/TR/media-frags/",
-                            "value": "xywh=pixel:1877.3253173828125,1671.6724853515625,1212.6890869140625,1403.1112060546875"
+                            "type": "SvgSelector",
+                            "value": "<svg><ellipse cx=\"3018.4361572265625\" cy=\"643.9602432250977\" rx=\"458.0628662109375\" ry=\"437.21297454833984\"></ellipse></svg>"
                         }
                     },
                     "@context": "http://iiif.io/api/presentation/3/context.json",
-                    "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/annotation/p1/c2970d84-99c9-43d9-a27a-9066642c157f"
+                    "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/7/annotation/p1/51140cb9-cb3e-4fdf-b93f-6132a69f79a3"
                 }
             ]
         }
