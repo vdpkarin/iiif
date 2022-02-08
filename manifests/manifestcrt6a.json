@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://vdpkarin.github.io/minne1982/manifests/manifestcrt6a.json",
+    "id": "https://vdpkarin.github.io/iiif/manifests/manifestcrt6a.json",
     "type": "Manifest",
     "label": {
         "nl": [
