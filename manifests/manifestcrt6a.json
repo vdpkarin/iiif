@@ -159,7 +159,7 @@
                     ],
                     "target": {
                         "type": "SpecificResource",
-                        "source": "https://iiif.kmska.be/c/iiif/2/public@2076.tif/full/max/0/default.jpg",
+                        "source": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/6/canvas/p1",
                         "styleClass": "condition-red",
                         "selector": {
                             "type": "FragmentSelector",
