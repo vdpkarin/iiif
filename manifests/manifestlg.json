@@ -1,0 +1,273 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json",
+    "http://www.w3.org/ns/anno.jsonld"
+  ],
+  "id": "https://vdpkarin.github.io/iiif/manifests/manifestlg.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Lam gods (Hubert and Jan Van Eyck)"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": ["Artist"],
+        "nl": ["Kunstenaar"]
+      },
+      "value": {
+        "en": ["Jan Van Eyck"],
+        "nl": ["Jan Van Eyck"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Date"],
+        "nl": ["Datum"]
+      },
+      "value": {
+        "en": ["1432"],
+        "nl": ["1432"]
+      }
+    }  
+  ],
+  "requiredStatement": {
+    "label": { 
+      "nl": ["Rechten"]
+    },
+    "value": { 
+      "nl": ["De afbeeldingen in deze IIIF-proefopstelling werden ter beschikking gesteld door Meemoo. De door Meemoo opgelegde gebruikslicentie voor het Lam Gods van de gebroeders Van Eyck is 'CC-BY-NC-ND 4.0.' De gepaste bronvermelding is ’Collectie Sint-Baafskathedraal Gent - www.artinflanders.be - fotograaf Hugo Maertens’. Het betreft hier afbeeldingen van voor de jongste restauratie. Wanneer u afbeeldingen wilt bestellen van na deze restauratie, dan kunt u deze opvragen via https://artinflanders.be. "]
+    }
+  },
+  "items": [
+    {
+      "id": "http://127.0.0.1:8887/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Lam Gods, open"
+        ]
+      },
+      "height": 2456,
+      "width": 3508,
+      "thumbnail": [
+		{
+		  "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F59.tif/full/full/0/default.jpg",
+		  "type": "Image",
+		  "format": "image/jpeg",
+		  "service": [
+		    {
+		      "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F59.tif",
+		      "type": "ImageService2",
+		      "profile": "level1"
+		    }
+		  ],
+		  "width": 300,
+		  "height": 200
+		}
+	  ],
+      "items": [
+        {
+          "id": "http://127.0.0.1:8887/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://127.0.0.1:8887/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F59.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2456,
+                "width": 3508,
+                "service": [
+                  {
+                    "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F59.tif",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "http://127.0.0.1:8887/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://127.0.0.1:8887/annotationPage/1",
+          "type": "AnnotationPage",
+          "items": [
+          	{
+              "id": "http://127.0.0.1:8887/annotationPage/1/2",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": {
+                "en": [
+                  "Het offer van Kaïn en Abel"
+                ]
+              },
+              "body": {
+				"type": "TextualBody",
+				"value": "Het offer van Kaïn en Abel",
+				"format": "text/html"
+			  },
+              "target": "http://127.0.0.1:8887/canvas/p1#xywh=215,180,260,230"
+            },
+            {
+              "id": "http://127.0.0.1:8887/annotationPage/1/3",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": {
+                "en": [
+                  "Adam"
+                ]
+              },
+              "body": {
+				"type": "TextualBody",
+				"value": "Adam",
+				"format": "text/plain"
+			  },
+              "target": "http://127.0.0.1:8887/canvas/p1#xywh=215,410,260,1025"
+            },
+            {
+              "id": "http://127.0.0.1:8887/annotationPage/1/4",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": {
+                "en": [
+                  "Zingende Engelen"
+                ]
+              },
+              "body": {
+				"type": "TextualBody",
+				"value": "Zingende Engelen",
+				"format": "text/plain"
+			  },
+              "target": "http://127.0.0.1:8887/canvas/p1#xywh=480,435,510,1000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://127.0.0.1:8887/canvas/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Het offer van Kain en Abel"
+        ]
+      },
+      "height": 3508,
+      "width": 2427,
+      "items": [
+        {
+          "id": "http://127.0.0.1:8887/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://127.0.0.1:8887/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F60.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3508,
+                "width": 2427,
+                "service": [
+                  {
+                    "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F60.tif",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "http://127.0.0.1:8887/canvas/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://127.0.0.1:8887/canvas/p3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Adam"
+        ]
+      },
+      "height": 3507,
+      "width": 880,
+      "items": [
+        {
+          "id": "http://127.0.0.1:8887/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://127.0.0.1:8887/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F58.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3507,
+                "width": 880,
+                "service": [
+                  {
+                    "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F58.tif",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "http://127.0.0.1:8887/canvas/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://127.0.0.1:8887/canvas/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Zingende Engelen"
+        ]
+      },
+      "height": 3488,
+      "width": 1783,
+      "items": [
+        {
+          "id": "http://127.0.0.1:8887/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://127.0.0.1:8887/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F62.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3488,
+                "width": 1783,
+                "service": [
+                  {
+                    "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F62.tif",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "http://127.0.0.1:8887/canvas/p4"
+              }
+          ]
+        }
+      ]
+    }
+  ]
+}
