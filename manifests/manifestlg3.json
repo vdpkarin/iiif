@@ -1,0 +1,140 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json",
+    "http://www.w3.org/ns/anno.jsonld"
+  ],
+  "id": "https://vdpkarin.github.io/iiif/manifests/manifestlg3.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Lam gods"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": ["Artist"],
+        "nl": ["Kunstenaar"]
+      },
+      "value": {
+        "en": ["Jan Van Eyck"],
+        "nl": ["Jan Van Eyck"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Date"],
+        "nl": ["Datum"]
+      },
+      "value": {
+        "en": ["1432"],
+        "nl": ["1432"]
+      }
+    }  
+  ],
+  "requiredStatement": {
+    "label": { 
+      "nl": ["Rechten"]
+    },
+    "value": { 
+      "nl": ["Xxx"]
+    }
+  },
+  "items": [
+    {
+      "id": "http://127.0.0.1:8887/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Lam Gods, open"
+        ]
+      },
+      "height": 2456,
+      "width": 3508,
+  "items": [
+        {
+          "id": "http://127.0.0.1:8887/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://127.0.0.1:8887/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F59.tif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2456,
+                "width": 3508,
+                "service": [
+                  {
+                    "id": "https://imagehub.dev.vlaamsekunstcollectie.be/iiif/2/public%2F59.tif",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "http://127.0.0.1:8887/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "http://127.0.0.1:8887/annotationPage/1",
+          "type": "AnnotationPage",
+          "items": [
+          	{
+              "id": "http://127.0.0.1:8887/annotationPage/1/2",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": {
+                "en": [
+                  "Het offer van Kaïn en Abel"
+                ]
+              },
+              "body": {
+				"type": "TextualBody",
+				"value": "Het offer van Kaïn en Abel",
+				"format": "text/html"
+			  },
+              "target": "http://127.0.0.1:8887/canvas/p1#xywh=215,180,260,230"
+            },
+            {
+              "id": "http://127.0.0.1:8887/annotationPage/1/3",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": {
+                "en": [
+                  "Adam"
+                ]
+              },
+              "body": {
+				"type": "TextualBody",
+				"value": "Adam",
+				"format": "text/plain"
+			  },
+              "target": "http://127.0.0.1:8887/canvas/p1#xywh=215,410,260,1025"
+            },
+            {
+              "id": "http://127.0.0.1:8887/annotationPage/1/4",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "label": {
+                "en": [
+                  "Zingende Engelen"
+                ]
+              },
+              "body": {
+				"type": "TextualBody",
+				"value": "Zingende Engelen",
+				"format": "text/plain"
+			  },
+              "target": "http://127.0.0.1:8887/canvas/p1#xywh=480,435,510,1000"
+              }
+          ]
+        }
+      ]
+    }
+  ]
+}
