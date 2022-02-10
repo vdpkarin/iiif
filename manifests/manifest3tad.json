@@ -100,7 +100,7 @@
               {
               "id": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/annotationPage/1/4",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
                 "value": "bruine vlek",
