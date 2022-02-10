@@ -81,7 +81,7 @@
             {
               "id": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/annotationPage/1/3",
               "type": "Annotation",
-              "motivation": "tagging",
+              "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
                 "value": "knoop",
@@ -90,11 +90,10 @@
               "target": {
                 "type": "SpecificResource",
                 "source": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1",
-                "styleClass": "condition-red",
                         "selector": {
                             "type": "FragmentSelector",
                             "conformsTo": "http://www.w3.org/TR/media-frags/",
-                            "value": "xywh=pixel:880.3253173828125,950.6724853515625,531.6890869140625,583.1112060546875"
+                            "value": "xywh=880.3253173828125,950.6724853515625,531.6890869140625,583.1112060546875"
                         }
                      }
                 }           
