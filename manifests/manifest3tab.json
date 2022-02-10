@@ -87,14 +87,15 @@
                             "modified": "2021-12-02T08:48:28.520Z"
                         }
                     ],
-    "target": {
-        "source": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=880.3460693359375,1500.656494140625,2110.0311279296875,850.616943359375"
-        },
-           {
+              "target": {
+                "source": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=880.3460693359375,1500.656494140625,2110.0311279296875,850.616943359375"
+                  }
+                },
+              {
               "id": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/annotationPage/1/3",
               "type": "Annotation",
               "motivation": "tagging",
@@ -104,7 +105,8 @@
                 "format": "text/plain"
               },
               "target": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1#xywh=380,500,2130,850"
-            }           
+              }
+            }
           ]
         }
       ]
