@@ -103,7 +103,7 @@
               "motivation": "tagging",
               "body": {
                 "type": "TextualBody",
-                "value": "vlekken",
+                "value": "bruine vlek",
                 "format": "text/plain"
               },
               "target": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1#xywh=835,3870,530,580"
