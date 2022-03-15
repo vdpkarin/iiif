@@ -3,7 +3,7 @@
     "http://iiif.io/api/presentation/3/context.json",
     "http://www.w3.org/ns/anno.jsonld"
   ],
-  "id": "https://vdpkarin.github.io/iiif/manifests/manifest3tad.json",
+  "id": "https://vdpkarin.github.io/iiif/manifests/manifest3tac.json",
   "type": "Manifest",
   "label": {
     "nl": [
@@ -103,7 +103,7 @@
               "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
-                "value": "vlek",
+                "value": "vlek ellipse",
                 "format": "text/plain"
               },
               "target": {
