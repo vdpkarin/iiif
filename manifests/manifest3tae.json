@@ -3,7 +3,7 @@
     "http://iiif.io/api/presentation/3/context.json",
     "http://www.w3.org/ns/anno.jsonld"
   ],
-  "id": "https://vdpkarin.github.io/iiif/manifests/manifest3taf.json",
+  "id": "https://vdpkarin.github.io/iiif/manifests/manifest3tae.json",
   "type": "Manifest",
   "label": {
     "nl": [
@@ -103,7 +103,7 @@
               "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
-                "value": "vlek",
+                "value": "vlek ellipse",
                 "format": "text/plain"
               },
               "target": {
@@ -112,6 +112,24 @@
                         "selector": {
                             "type": "SvgSelector",
                             "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M855,4150a180,150 0 1,0 360,0a180,150 0 1,0 -360,0'/></g></svg>"
+                        }
+                      }
+                  },
+                {
+              "id": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/annotationPage/1/5",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "vlek polygon",
+                "format": "text/plain"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1",
+                        "selector": {
+                            "type": "SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M20,20 100,20 100,100 30,110z'/></g></svg>"
                         }
                       }
                     }
