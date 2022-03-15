@@ -129,7 +129,7 @@
                 "source": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1",
                         "selector": {
                             "type": "SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M1,0.533 l-0.484,-0.5 v0.3 h-0.516 v0.4 h0.516 v0.3'/></g></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M30,50 180,30 150,150 85,155 30,180 H2510 V3580z'/></g></svg>"
                         }
                       }
                     }
