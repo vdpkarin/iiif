@@ -76,7 +76,7 @@
                 "value": "met de vlam in de pijp",
                 "format": "text/plain"
               },
-              "target": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1#xywh=880,1500,2310,850"
+              "target": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1#xywh=1800,1800,1310,550"
             },
             {
               "id": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/annotationPage/1/3",
@@ -93,7 +93,7 @@
                         "selector": {
                             "type": "FragmentSelector",
                             "conformsTo": "http://www.w3.org/TR/media-frags/",
-                            "value": "xywh=880.3253173828125,950.6724853515625,531.6890869140625,583.1112060546875"
+                            "value": "xywh=980.3253173828125,1050.6724853515625,481.6890869140625,533.1112060546875"
                         }
                       }
                   },  
@@ -129,7 +129,7 @@
                 "source": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1",
                         "selector": {
                             "type": "SvgSelector",
-                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M2330,3550 2555,3530 2615,3755 2405,3715 2355,3750z'/></g></svg>"
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M2130,3550 2355,3530 2415,3755 2205,3715 2155,3750z'/></g></svg>"
                         }
                       }
                     }
