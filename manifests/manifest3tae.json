@@ -73,7 +73,7 @@
               "motivation": "tagging",
               "body": {
                 "type": "TextualBody",
-                "value": "met de vlam in de pijp",
+                "value": "ook geen pijp #xywh",
                 "format": "text/plain"
               },
               "target": "https://imagehub.iiif.vlaamsekunstcollectie.be/iiif/2/mskgent.be:1970-AE/canvas/p1#xywh=1800,1800,1310,550"
@@ -84,7 +84,7 @@
               "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
-                "value": "knoop",
+                "value": "knoopje > xywhFS",
                 "format": "text/plain"
               },
               "target": {
@@ -103,7 +103,7 @@
               "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
-                "value": "vlek ellipse",
+                "value": "vlek > ellipseSvg",
                 "format": "text/plain"
               },
               "target": {
@@ -121,7 +121,7 @@
               "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
-                "value": "vlek polygon",
+                "value": "vlek > polygonSvg",
                 "format": "text/plain"
               },
               "target": {
