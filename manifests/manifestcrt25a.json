@@ -119,7 +119,7 @@
               "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/25/annotationPage/1/4",
               "type": "Annotation",
               "motivation": "commenting",
-		"body": [
+		        "body": [
                         {
                             "type": "TextualBody",
                             "value": "Vingerafdrukken"
@@ -127,7 +127,7 @@
                         {
                             "type": "TextualBody",
                             "value": "duim",
-                            "format": "text/plain"
+                            "format": "text/plain",
                             "creator": {
                                 "id": "http://www.example.com/hero-solutions",
                                 "name": "Hero Solutions"
