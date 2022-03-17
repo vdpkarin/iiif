@@ -98,7 +98,7 @@
                       }
                   },
                 {
-              "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/25/annotationPage/1/4",
+              "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/25/annotationPage/1/3",
               "type": "Annotation",
               "motivation": "commenting",
               "body": {
@@ -116,7 +116,7 @@
                       }
                   },
                 {
-              "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/25/annotationPage/1/3",
+              "id": "https://conditierapporten.vlaamsekunstcollectie.be/iiif/3/25/annotationPage/1/4",
               "type": "Annotation",
               "motivation": "commenting",
 		"body": [
