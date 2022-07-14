@@ -6,7 +6,8 @@
   "id": "https://vdpkarin.github.io/iiif/manifests/manifest3tne.json",
   "type": "Manifest",
   "label": {
-    "nl": ["Zelfportret (studie)"]
+    "nl": ["Zelfportret"],
+    "en": ["Self-Portrait"]
       },
   "metadata": [
       {
