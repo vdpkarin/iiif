@@ -46,7 +46,7 @@
                                 "service": {
                                     "@context": "http://iiif.io/api/image/3/context.json",
                                     "@id": "https://images.meemoo.be/iiif/sf2m64751m.jp2",
-                                    "profile": "http://iiif.io/api/image/3/level2.json"
+                                    "profile": "http://iiif.io/api/image/3/level21.json"
                                 },
                                 "height": 6241,
                                 "width": 6704
