@@ -1,7 +1,7 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@type": "sc:Manifest",
-    "@id": "https://imagehub.herosolutions.be/meemoo/iiif/2/sf2m64751m/manifest.json",
+    "@id": "https://vdpkarin.github.io/iiif/manifestsf2m64751m.json",
     "label": "Paleis der Academiën",
     "attribution": "Mu.ZEE, Kunstmuseum aan zee",
     "description": "n/a",
@@ -46,7 +46,7 @@
                                 "service": {
                                     "@context": "http://iiif.io/api/image/2/context.json",
                                     "@id": "https://images.meemoo.be/iiif/sf2m64751m.jp2",
-                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                    "profile": "http://iiif.io/api/image/3/level2.json"
                                 },
                                 "height": 6241,
                                 "width": 6704
