@@ -112,47 +112,6 @@
     "behavior": "paged",
     "items": [
         {
-            "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/1",
-            "type": "Canvas",
-            "height": 1217,
-            "width": 1500,
-            "metadata": [
-        {
-          "label": {
-            "nl": [
-              "metadata canvas"
-            ]
-          },
-          "value": {
-            "nl": [
-              "metadata over canvas 1, beeld 19 uit dit schetsboek"
-            ]
-          }
-        }
-      ],
-            "items": [
-                {
-                    "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/1/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/annotation/1-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F19.tif/full/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 1217,
-                                "width": 1500
-                            },
-                            "target": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/2",
             "type": "Canvas",
             "height": 1217,
@@ -161,12 +120,12 @@
         {
           "label": {
             "nl": [
-              "metadata canvas"
+              "metadata per canvas "
             ]
           },
           "value": {
             "nl": [
-              "metadata over canvas 2, beeld 20 uit dit schetsboek"
+              "metadata over canvas 1, beeld 20 uit dit schetsboek: dit is de kaft van het boek"
             ]
           }
         }
@@ -207,7 +166,7 @@
           },
           "value": {
             "nl": [
-              "metadata over canvas 3, beeld 21 uit dit schetsboek"
+              "metadata over canvas 2, beeld 21 uit dit schetsboek: dit is het schutblad of binnenzijde van de kaft van het boek"
             ]
           }
         }
@@ -239,6 +198,20 @@
             "type": "Canvas",
             "height": 1217,
             "width": 1500,
+                    "metadata": [
+        {
+          "label": {
+            "nl": [
+              "metadata canvas"
+            ]
+          },
+          "value": {
+            "nl": [
+              "metadata over canvas 3, beeld 22 uit dit schetsboek: dit is de eerste tekening uit het boek"
+            ]
+          }
+        }
+      ],
             "items": [
                 {
                     "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/4/1",
