@@ -4,10 +4,10 @@
     "type": "Manifest",
     "label": {
         "nl": [
-            "Schetsboek met studies van figuren"
+            "Schetsboek ca. 1898"
         ],
         "en": [
-            "Schetsboek met studies van figuren"
+            "Sketchbook ca. 1898"
         ]
     },
     "metadata": [
@@ -67,7 +67,7 @@
             },
             "value": {
                 "en": [
-                    "Hier zou de engelse tekst moeten staan"
+                    "Hier zou de engelse beschrijving moeten staan"
                 ],
                 "nl": [
                     "Dit schetsboek bevat een reeks tekeningen waarin de kunstenaar zoekt naar een opstelling van evenwichtig gegroepeerde figuren, hetgeen zal resulteren in \"De fontein der gekielden\" (ca. 1898) Sommige schetsen tonen een zeer dynamische opstelling van elkaar de hand reikende jongelingen, terwijl in andere studies het statisch eindresultaat benaderd wordt."
@@ -101,7 +101,7 @@
         },
         "value": {
             "en": [
-                "Museum voor Schone Kunsten Gent<p>The original TIFF files of this work, in highest resolution and color-coded, can be ordered from <a href=\"https://artinflanders.be\">Art in Flanders</a> (meemoo). If this image is used for a printed publication or a commercial product, we would appreciate having three copies sent to us.</p>"
+                "Museum of Fine Arts Ghent<p>The original TIFF files of this work, in highest resolution and color-coded, can be ordered from <a href=\"https://artinflanders.be\">Art in Flanders</a> (meemoo). If this image is used for a printed publication or a commercial product, we would appreciate having three copies sent to us.</p>"
             ],
             "nl": [
                 "Museum voor Schone Kunsten Gent<p>De originele TIFF-bestanden van dit werk, in hoogste resolutie en met kleurencode, kunnen worden besteld bij <a href=\"https://artinflanders.be\">Art in Flanders</a> (meemoo). Wanneer dit beeld gebruikt wordt voor een gedrukte publicatie of een commercieel product, dan stellen we het op prijs dat drie exemplaren worden toegestuurd naar ons.</p>"
@@ -110,7 +110,38 @@
     },
     "viewingDirection": "left-to-right",
     "behavior": "paged",
+    "start": {
+    "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/2",
+    "type": "Canvas"
+  },
     "items": [
+          {
+            "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/1",
+            "type": "Canvas",
+            "height": 1217,
+            "width": 1500,
+            "items": [
+                {
+                    "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/1/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/annotation/1-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F19.tif/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1217,
+                                "width": 1500
+                            },
+                            "target": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/1"
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "id": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/canvas/2",
             "type": "Canvas",
@@ -125,7 +156,7 @@
           },
           "value": {
             "nl": [
-              "metadata over canvas 1, beeld 20 uit dit schetsboek: dit is de kaft van het boek"
+              "metadata over dit canvas (beeld 20): dit is de kaft van het boek"
             ]
           }
         }
@@ -166,7 +197,7 @@
           },
           "value": {
             "nl": [
-              "metadata over canvas 2, beeld 21 uit dit schetsboek: dit is het schutblad of binnenzijde van de kaft van het boek"
+              "metadata over dit canvas (beeld 21): dit is het schutblad of binnenzijde van de kaft van het boek"
             ]
           }
         }
@@ -207,7 +238,7 @@
           },
           "value": {
             "nl": [
-              "metadata over canvas 3, beeld 22 uit dit schetsboek: dit is de eerste tekening uit het boek"
+              "metadata over dit canvas (beeld 22): dit is de eerste tekening uit het boek"
             ]
           }
         }
