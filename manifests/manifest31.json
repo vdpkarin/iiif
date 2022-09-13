@@ -1,0 +1,191 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://vdpkarin.github.io/iiif/manifests/manifest31.json",
+    "type": "Manifest",
+    "label": {
+        "nl": [
+            "Close-up"
+        ],
+        "en": [
+            "Close-up"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "nl": [
+                    "Titel"
+                ],
+                "en": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "nl": [
+                    "Close-up"
+                ],
+                "en": [
+                    "Close-up"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Creator"
+                ],
+                "nl": [
+                    "Vervaardiger"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Maroufi, Randa"
+                ],
+                "nl": [
+                    "Maroufi, Randa"
+                ]
+            }
+        },
+        {
+            "label": {
+                "nl": [
+                    "Vervaardigingsdatum"
+                ],
+                "en": [
+                    "Date created"
+                ]
+            },
+            "value": {
+                "nl": [
+                    "2016"
+                ],
+                "en": [
+                    "2016"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Inventory no."
+                ],
+                "nl": [
+                    "Inventarisnummer"
+                ]
+            },
+            "value": {
+                "en": [
+                    "MZ000372"
+                ],
+                "nl": [
+                    "MZ000372"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Photographer"
+                ],
+                "nl": [
+                    "Fotograaf"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Dominique Provost"
+                ],
+                "nl": [
+                    "Dominique Provost"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Description"
+                ],
+                "nl": [
+                    "Beschrijving"
+                ]
+            },
+            "value": {
+                "en": [
+                    "In Close-up zien we een zwart scherm en horen we mensen met een etnisch-cultureel diverse achtergrond vertellen over hun indrukken bij het bekijken van het werk Origine du Monde van Courbet. Het originele werk van Courbet krijgen we niet te zien."
+                ],
+                "nl": [
+                    "In Close-up zien we een zwart scherm en horen we mensen met een etnisch-cultureel diverse achtergrond vertellen over hun indrukken bij het bekijken van het werk Origine du Monde van Courbet. Het originele werk van Courbet krijgen we niet te zien."
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Manifest URL"
+                ],
+                "nl": [
+                    "Manifest URL"
+                ]
+            },
+            "value": {
+                "en": [
+                    "<a href=\"https://imagehub.uat.vlaamsekunstcollectie.be/iiif/3/1/manifest.json\">https://imagehub.uat.vlaamsekunstcollectie.be/iiif/3/1/manifest.json</a>"
+                ],
+                "nl": [
+                    "<a href=\"https://imagehub.uat.vlaamsekunstcollectie.be/iiif/3/1/manifest.json\">https://imagehub.uat.vlaamsekunstcollectie.be/iiif/3/1/manifest.json</a>"
+                ]
+            }
+        }
+    ],
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ],
+            "nl": [
+                "Collectie"
+            ]
+        },
+        "value": {
+            "en": [
+                "Mu.ZEE, Art museum at the seaside<p>The original TIFF files of this work, in highest resolution and color-coded, can be ordered from <a href=\"https://artinflanders.be\">Art in Flanders</a> (meemoo). If this image is used for a printed publication or a commercial product, Mu.ZEE would appreciate having three copies sent to Mu.ZEE, Romestraat 11, 8400 Oostende, Belgium. More information: <a href=\"mailto:info@muzee.be\">info@muzee.be</a>.</p>"
+            ],
+            "nl": [
+                "Mu.ZEE, Kunstmuseum aan zee<p>De originele TIFF-bestanden van dit werk, in hoogste resolutie en met kleurencode, kunnen worden besteld bij <a href=\"https://artinflanders.be\">Art in Flanders</a> (meemoo). Wanneer dit beeld gebruikt wordt voor een gedrukte publicatie of een commercieel product, dan vraagt Mu.ZEE dat drie exemplaren worden toegestuurd naar Mu.ZEE, Romestraat 11, 8400 Oostende. Meer info: <a href=\"mailto:info@muzee.be\">info@muzee.be</a>.</p>"
+            ]
+        }
+    },
+    "viewingDirection": "left-to-right",
+    "behavior": "individuals",
+    "items": [
+        {
+            "id": "https://imagehub.uat.vlaamsekunstcollectie.be/iiif/3/canvas/1",
+            "type": "Canvas",
+            "height": 1053,
+            "width": 1425,
+            "items": [
+                {
+                    "id": "https://imagehub.uat.vlaamsekunstcollectie.be/iiif/3/canvas/1/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://imagehub.uat.vlaamsekunstcollectie.be/iiif/3/annotation/1-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://imagehub.uat.vlaamsekunstcollectie.be/iiif/2/public%2F1.tif/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1053,
+                                "width": 1425
+                            },
+                            "target": "https://imagehub.uat.vlaamsekunstcollectie.be/iiif/3/canvas/1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rights": "https://rightsstatements.org/page/UND/1.0/"
+}
